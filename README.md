@@ -38,7 +38,7 @@ python code_translator.cli_main --analyze source-file
 ```
 - For help use 
 ``` bash
-python code code_translator.cli_main -h
+python code_translator.cli_main -h
 ```
 
 ## Requirements
