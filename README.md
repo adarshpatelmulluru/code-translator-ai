@@ -29,16 +29,16 @@ pip install -r requirements.txt
 ## Usage
 ### Translation
 ```bash
-python code_translator.cli_main --translate source-file destination-file
+python code_generator.cli_main --translate source-file destination-file
 ```
 
 ### Analysis
 ```bash
-python code_translator.cli_main --analyze source-file
+python code_generator.cli_main --analyze source-file
 ```
 - For help use 
 ``` bash
-python code_translator.cli_main -h
+python code_generator.cli_main -h
 ```
 
 ## Requirements
@@ -48,7 +48,7 @@ python code_translator.cli_main -h
 
 ## Project Structure
 ```
-code_translator/
+code_generator/
 ├── cli_main.py         # Main CLI interface
 ├── translate_anlyz.py  # Core translation logic
 ├── file_utils.py       # File operations
